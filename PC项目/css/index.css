@@ -1,0 +1,413 @@
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #333333;
+  height: 60px;
+  z-index: 5;
+}
+#header .row .logo {
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+}
+#header .row .logo img {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  margin-top: -14px;
+}
+#header .row nav {
+  height: 60px;
+}
+#header .row nav ul {
+  width: 50%;
+  height: 60px;
+  margin-left: 270px;
+}
+#header .row nav ul li {
+  float: left;
+  width: 20%;
+  height: 60px;
+  line-height: 60px;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+}
+#header .row nav ul li.active {
+  background: #ffcc00;
+  color: #000000;
+  cursor: default;
+}
+#container {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#container #pic {
+  height: 500%;
+  position: relative;
+  top: 0;
+  transition: 1s top;
+}
+#container #pic .home {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background: url('../img/s1.jpg') center;
+  overflow: hidden;
+}
+#container #pic .home img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -545px;
+  margin-top: -260px;
+  transition: 1s;
+}
+#container #pic .simple {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background: url('../img/s2.jpg') center;
+  overflow: hidden;
+}
+#container #pic .simple .left {
+  position: absolute;
+  margin-top: 3%;
+  z-index: 2;
+}
+#container #pic .simple .left .pics {
+  height: 100%;
+  margin-left: 40px;
+}
+#container #pic .simple .left .pics li {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  text-align: center;
+  transition: 1s;
+}
+#container #pic .simple .left .pics li p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+#container #pic .simple .left .pics li a {
+  position: absolute;
+  width: 98px;
+  left: 50%;
+  margin-left: -54px;
+}
+#container #pic .simple .right {
+  position: absolute;
+  right: 3%;
+  border-right: 2px solid;
+  padding-right: 10px;
+  text-align: right;
+  z-index: 3;
+  top: 10%;
+  transition: 1s;
+}
+#container #pic .simple .right h1 {
+  margin-top: 0;
+  font-size: 34px;
+  color: #333;
+  font-weight: 100;
+}
+#container #pic .simple .right p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#container #pic .simple .right a {
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#container #pic .simple .right a:hover {
+  text-decoration: none;
+}
+#container #pic .simple .bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#container #pic .person {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background: url('../img/s2.jpg') center;
+  overflow: hidden;
+}
+#container #pic .person .left {
+  position: absolute;
+  margin-top: 3%;
+  z-index: 2;
+}
+#container #pic .person .left .pics {
+  height: 100%;
+  margin-left: 40px;
+}
+#container #pic .person .left .pics li {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  text-align: center;
+  transition: 1s;
+}
+#container #pic .person .left .pics li p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+#container #pic .person .left .pics li a {
+  position: absolute;
+  width: 98px;
+  left: 50%;
+  margin-left: -54px;
+}
+#container #pic .person .right {
+  position: absolute;
+  right: 3%;
+  border-right: 2px solid;
+  padding-right: 10px;
+  text-align: right;
+  z-index: 3;
+  top: 10%;
+  transition: 1s;
+}
+#container #pic .person .right h1 {
+  margin-top: 0;
+  font-size: 34px;
+  color: #333;
+  font-weight: 100;
+}
+#container #pic .person .right p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#container #pic .person .right a {
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#container #pic .person .right a:hover {
+  text-decoration: none;
+}
+#container #pic .person .bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#container #pic .bloom {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background: url('../img/s2.jpg') center;
+  overflow: hidden;
+}
+#container #pic .bloom .left {
+  position: absolute;
+  margin-top: 3%;
+  z-index: 2;
+}
+#container #pic .bloom .left .pics {
+  height: 100%;
+  margin-left: 40px;
+}
+#container #pic .bloom .left .pics li {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  transition: 1s;
+}
+#container #pic .bloom .left .pics li p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+#container #pic .bloom .left .pics li a {
+  width: 98px;
+}
+#container #pic .bloom .right {
+  position: absolute;
+  right: 3%;
+  border-right: 2px solid;
+  padding-right: 10px;
+  text-align: right;
+  z-index: 3;
+  top: 10%;
+  transition: 1s;
+}
+#container #pic .bloom .right h1 {
+  margin-top: 0;
+  font-size: 34px;
+  color: #333;
+  font-weight: 100;
+}
+#container #pic .bloom .right p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#container #pic .bloom .right a {
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#container #pic .bloom .right a:hover {
+  text-decoration: none;
+}
+#container #pic .bloom .bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#container #pic .plant {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background: url('../img/s2.jpg') center;
+  overflow: hidden;
+}
+#container #pic .plant .left {
+  position: absolute;
+  margin-top: 3%;
+  z-index: 2;
+}
+#container #pic .plant .left .pics {
+  height: 100%;
+  margin-left: 40px;
+}
+#container #pic .plant .left .pics li {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  transition: 1s;
+}
+#container #pic .plant .left .pics li p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+#container #pic .plant .left .pics li a {
+  width: 98px;
+}
+#container #pic .plant .right {
+  position: absolute;
+  right: 3%;
+  border-right: 2px solid;
+  padding-right: 10px;
+  text-align: right;
+  z-index: 3;
+  top: 10%;
+  transition: 1s;
+}
+#container #pic .plant .right h1 {
+  margin-top: 0;
+  font-size: 34px;
+  color: #333;
+  font-weight: 100;
+}
+#container #pic .plant .right p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#container #pic .plant .right a {
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#container #pic .plant .right a:hover {
+  text-decoration: none;
+}
+#container #pic .plant .bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#round {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  right: 15px;
+  width: 10px;
+  z-index: 3;
+}
+#round .roundList li.active a {
+  background: #000000;
+  cursor: default;
+}
+#round .roundList li a {
+  width: 12px;
+  height: 12px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-bottom: 7px;
+  transition: 1s;
+}
+#round .roundList li a:hover {
+  background: #000000;
+}
+@keyframes move1 {
+  0% {
+    transform: translate(330px, -1000px);
+  }
+  20% {
+    transform: translate(330px, 0);
+  }
+  40% {
+    transform: translate(330px, -50px);
+  }
+  60% {
+    transform: translate(330px, 0px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes move2 {
+  0% {
+    transform: translate(0, -1000px);
+  }
+  20% {
+    transform: translate(0, 0);
+  }
+  40% {
+    transform: translate(0, -50px);
+  }
+  60% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes move3 {
+  0% {
+    transform: translate(-330px, -1000px);
+  }
+  20% {
+    transform: translate(-330px, 0);
+  }
+  40% {
+    transform: translate(-330px, -50px);
+  }
+  60% {
+    transform: translate(-330px, 0px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
